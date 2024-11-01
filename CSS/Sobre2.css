@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #c6e9e6; /* Fundo padrão */
+    color: #141313;
+    padding-top: 50px;
+    background-image: url(../img/Fundo2.jpg); /* Fundo com imagem */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Cabeçalho */
+header {
+    background: #f7ead6; /* Barra superior */
+    color: #d733c7;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0c0c0ef6; /* Cor da fonte */
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 1.3rem; /* Tamanho da fonte */
+}
+
+nav ul li a:hover {
+    background: #ec6ec4;
+    border-radius: 5px;
+}
+
+/* Menu de navegação */
+.menu {
+    background-color: #f8f0d0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 599px) {
+    .menu {
+        visibility: hidden;
+    }
+}
+
+main {
+    padding: 20px;
+    margin-top: 90px; /* Ajustado para compensar a barra fixa */
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f5c2ec; /* Cor de fundo da seção */
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fcfec4; /* Sombra de destaque */
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #153021; /* Fundo do rodapé */
+    color: #f8f0d0;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
